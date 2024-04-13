@@ -16,7 +16,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className='md:px-8 px-4 w-full lg:w-1/3 border-zinc-900 border-b-2  pb-10'>
-                <img src='./images/bh-22-trustpilot-tp-logo-text-ie-300x223.png'/>
+                <img src='./assesst/bh-22-trustpilot-tp-logo-text-ie-300x223.png'/>
             </div>
         </div>
         <div className='flex flex-col-reverse md:px-14 3xl:px-[200px] px-8 lg:flex-row justify-between  text-white'>

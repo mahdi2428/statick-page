@@ -1,16 +1,15 @@
 import React, { useEffect, useState } from "react";
 import img from "../../images/rvrvs.png"
-import UseDlay from "./usedelay";
 
 
 export default function Article_3(){
     
-    UseDlay(500,delay2)
+   
     
     
     return(
         <>
-        <div className={delay2  ? `flex flex-col justify-center items-center mt-10 py-14 duration-1000 opacity-0` : `flex flex-col justify-center items-center mt-10 py-14 duration-1000 opacity-100`}>
+        <div className="flex flex-col justify-center items-center mt-10 py-14 ">
             <div className="bg-contain bg-center h-[25vh] overflow-hidden bg-no-repeat flex  justify-center  w-full " 
             style={{
                 backgroundImage:`url(${img})`

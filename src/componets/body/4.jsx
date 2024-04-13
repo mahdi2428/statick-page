@@ -1,22 +1,11 @@
 import React, { useEffect, useRef, useState } from "react";
 import ReactPlayer from 'react-player'
 export default function Article_4(){
-    const[delay3 ,setDelay3]=useState(true)
-    // useEffect(()=>{
-    //     window.onscroll=function name(){
-    //     let height1 = window.pageYOffset
-    //     if(height1>1000){
-    //     setDelay3(false)
-    //     console.log(height1)
-    //    }else{
-    //     setDelay3(true)
-    //    }
-    // }
-    // })
+ 
     
     return(
         <>
-        <div className={delay3 ? `flex xl:flex-row flex-col px-3 items-center xl:px-[200px] md:pt-[120px] md:pb-[80px] opacity-0 duration-1000`:`flex xl:flex-row flex-col px-3 items-center xl:px-[200px] md:pt-[120px] md:pb-[80px] opacity-100 duration-1000`}>
+        <div className= "flex xl:flex-row flex-col px-3 items-center xl:px-[200px] md:pt-[120px] md:pb-[80px] ">
             <div className="xl:basis-1/2 flex flex-col  md:items-left">
                 <p className="text-teal-500 text-center lg:text-left pb-8">WHAT IS IT?</p>
                 <p className="xl:text-[43px] text-[30px] text-white font-semibold mb-8">🤔 HOW DOES OUR SOFTWARE WORK?</p>

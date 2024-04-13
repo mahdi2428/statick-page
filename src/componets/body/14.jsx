@@ -9,7 +9,7 @@ export default function Article_14() {
         }}>
 
             <div style={{
-              
+              backgroundColor : '#1A1C2C', 
             }} className='h-fit rounded-3xl flex justify-center p-10 sm:p-14 sm:p-[40px] md:pt-[60px]  lg:w-2/3  '>
               <div className='w- md:w-1/2 text-center'>
                 <p className='text-white mb-4 text-[35px] xl:text-[45px] font-semibold '>Get started to make money💰</p>
